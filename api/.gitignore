@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folder
+venv/
+.venv/
+
+# Ignore dotenv environment variables file (do not upload secrets)
+.env
+
+# Ignore OS generated files
+.DS_Store
+
+# Logs and other system files
+*.log
+
+# Ignore gunicorn logs
+*.pid
+
+# Ignore database
+*.sqlite3
+
+# Ignore Docker files and directories
+*.dockerignore
+docker-compose.yml
+docker-compose.override.yml
+
+# Ignore IDE project files
+.idea/
+.vscode/
+
+# Ignore package management files
+pip-log.txt
+pip-delete-this-directory.txt

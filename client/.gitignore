@@ -1,5 +1,3 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
 # dependencies
 /node_modules
 /.pnp
@@ -16,21 +14,17 @@
 # production
 /build
 
-# misc
-.DS_Store
-*.pem
-
 # debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
 # local env files
-.env*.local
-
-# vercel
-.vercel
+.env*.local         # Ignore all local environment files
 
 # typescript
-*.tsbuildinfo
-next-env.d.ts
+*.tsbuildinfo       # TypeScript build cache
+next-env.d.ts       # Auto-generated Next.js TypeScript file
+
+# Tailwind CSS
+tailwind.config.js  # Exclude Tailwind config (optional)
